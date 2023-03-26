@@ -106,9 +106,19 @@ nav>ul>li:hover .megamenu {
     width: 20px;
     height: 10px;
 }
+.slide{
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: mandatory;
+    scrollbar-width: none;
+
+}
 
 .container_mid {
-    background-color: rgb(248, 208, 214);
+    /* background-color: rgb(248, 208, 214); */
     height: 100vh;
     border: 1px solid black;
     width: 100%;
